@@ -1,0 +1,37 @@
+/*
+Theme Name: Core-Cyber
+Theme URI: 
+Author: Pedro Rocha 
+Author URI: 
+Description: Meu primeiro tema WordPress 
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
