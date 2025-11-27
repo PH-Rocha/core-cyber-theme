@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class() ?>>
   
-  <header class="haeder-container">
+  <header class="header-container">
     <div class="logo">
       <?php 
       if ( function_exists('the_custom_logo') && has_custom_logo() ) {
