@@ -17,7 +17,7 @@
     <section class="hero-section">
       <div class="wrap">
         <h1><?php the_title(); ?></h1>
-        <p>Transformamos ideias em presença online profissional.</p>
+        <p><?php the_content(); ?></p>
       </div>
     </section>
 
