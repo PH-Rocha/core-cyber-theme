@@ -17,6 +17,7 @@
         ?>
         <a href="<?php echo home_url('/'); ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/my-logo.png" alt="<?php bloginfo('name'); ?>" class="custom-logo" width="100px">
+          <span class="logo-text">Core Cyber</span>
         </a>
         <?php
       }
