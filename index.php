@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main>
+
   <div class="hero">
     <h1>Bem-vindo ao meu blog</h1>
     <p>Aqui você encontrará publicações sobre diversos tópicos, incluindo programação, desenvolvimento web e muito mais.</p>
@@ -26,7 +26,5 @@
         </article>
     <?php endif; ?>
   </div>
-</main>
-
 
 <?php get_footer(); ?>

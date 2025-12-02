@@ -5,7 +5,7 @@
       if ( have_posts() ) : while ( have_posts() ) : the_post();
     
 ?>
-  <main id="primary" class="site-main">
+
     <?php 
       
       $about_page = get_page_by_path( 'sobre-nos' );
@@ -79,7 +79,6 @@
         endif;
       ?>
     </section>
-  </main>
   <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

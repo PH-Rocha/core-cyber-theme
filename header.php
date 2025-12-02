@@ -32,4 +32,4 @@
 
   </header>
 
-  <main>
+  <main class="site-main">

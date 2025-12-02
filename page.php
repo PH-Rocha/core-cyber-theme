@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="wrap">
+
   <section class="">
     <article class="article-full">
       <div class="page-header">
@@ -8,5 +8,5 @@
       <?php the_content(); ?>
     </article>
   </section>
-</main>
+
 <?php get_footer(); ?>
