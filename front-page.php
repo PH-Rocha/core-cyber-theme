@@ -25,15 +25,15 @@
       <h2>Recursos Principais:</h2>
       <div class="feature-list">
         <div class="feature-item">
-          <h3>Design Responsivo</h3>
+          <h3>recurso 1</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, eos nisi voluptates assumenda praesentium in modi eveniet odit voluptatibus, nesciunt rerum dolor soluta nostrum quidem vel minima dignissimos quae.</p>
         </div>
         <div class="feature-item">
-          <h3>fácil personalização</h3>
+          <h3>recurso 2o</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, eos nisi voluptates assumenda praesentium in modi eveniet odit voluptatibus, nesciunt rerum dolor soluta nostrum quidem vel minima dignissimos quae.</p>
         </div>
         <div class="feature-item">
-          <h3>Otimizado para velocidade</h3>
+          <h3>recurso 3</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, eos nisi voluptates assumenda praesentium in modi eveniet odit voluptatibus, nesciunt rerum dolor soluta nostrum quidem vel minima dignissimos quae.</p>
         </div>
       </div>
@@ -41,9 +41,9 @@
 
     <section class="cta-section">
       <div class="wrap">
-        <h2>Pronto para começar?</h2>
+        <h2>botão random</h2>
         <a href="<?php echo esc_url( $about_link ); ?>" class="btn-primary">
-            Conheça Nossos Serviços
+            sobre nós
         </a>
       </div>
     </section>
