@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <section class="">
+  <section class="hero-section">
     <article class="article-full">
       <div class="page-header">
         <h1><?php the_title(); ?></h1>

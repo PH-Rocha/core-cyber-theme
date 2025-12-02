@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-    <section  class="single__post">
+    <section  class="single-post">
         <article class="article-full">
-          <div class="single__post-header">
+          <div class="single-post-header">
               <?php if ( has_post_thumbnail() ) : ?>
                 <?php the_post_thumbnail(); ?>
               <?php endif; ?>

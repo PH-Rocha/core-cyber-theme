@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 
+<section class="index-section">
   <div class="hero">
     <h1>Bem-vindo ao meu blog</h1>
     <p>Aqui você encontrará publicações sobre diversos tópicos, incluindo programação, desenvolvimento web e muito mais.</p>
   </div>
+</section>
   
+<section class="blog-section">
   <div class="my-posts">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -26,5 +29,6 @@
         </article>
     <?php endif; ?>
   </div>
+</section>
 
 <?php get_footer(); ?>

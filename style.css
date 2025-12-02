@@ -148,3 +148,39 @@ img {
 .main-nav-container a:hover {
   color: #007bff;
 }
+
+.site-main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.site-main p,
+.site-main h1,
+.site-main h2,
+.site-main h3 {
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #4a00e0, #8e2de2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(45deg, #8e2de2, #4a00e0);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
