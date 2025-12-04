@@ -17,10 +17,14 @@ License: GNU General Public License v2 or later
 body {
   padding-top: 4.5rem;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-  color: #001a33;
+  color: #ffffff;
   font-weight: 400;
   line-height: 1.6;
-  background-color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("./assets/images/cyber-bg.png");
+  background-size: cover;
+  background-position: center tops;
+  background-repeat: no-repeat;
   width: 100%;
   min-width: 100vh;
   overflow-x: hidden;
@@ -44,7 +48,8 @@ h6 {
   line-height: 1.2;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  color: #222222;
+  color: #ffffff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
@@ -65,13 +70,13 @@ p {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: #e6e6e6;
   text-transform: uppercase;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #007bff;
+  color: #00b4ff;
 }
 
 li {
@@ -88,28 +93,24 @@ img {
 }
 
 .header-container {
-  background-color: #ffffff;
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #eee;
 }
 
 /* ajustar a logo e o texto da logo*/
 
 .logo a {
   text-decoration: none;
-  color: #555;
+  color: #e6e6e6;
   font-weight: 600;
-  text-transform: uppercase;
   font-size: 14px;
-  padding-bottom: 5px;
   transition: color 0.3s;
 }
 
 .logo a:hover {
-  color: #007bff;
+  color: #00b4ff;
 }
 
 .logo-a {
@@ -137,7 +138,7 @@ img {
 
 .main-nav-container a {
   text-decoration: none;
-  color: #555;
+  color: #e6e6e6;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
@@ -146,7 +147,7 @@ img {
 }
 
 .main-nav-container a:hover {
-  color: #007bff;
+  color: #00b4ff;
 }
 
 .site-main {
@@ -183,9 +184,4 @@ img {
   background-image: linear-gradient(45deg, #8e2de2, #4a00e0);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-}
-
-.hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/images/candles-6570075.jpg");
 }

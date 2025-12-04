@@ -16,7 +16,7 @@
         // fallback image
         ?>
         <a href="<?php echo home_url('/'); ?>" class="logo-a">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/my-logo.png" alt="<?php bloginfo('name'); ?>" class="custom-logo" width="100px">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/core-cyber-logo.png" alt="<?php bloginfo('name'); ?>" class="custom-logo" width="100px">
           <span class="logo-text">Core Cyber</span>
         </a>
         <?php
